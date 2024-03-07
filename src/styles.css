@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(4, 103, 103);
+    color: rgb(92, 3, 92);
+    border-radius: 10px;
+  }
+  
+  .form input {
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(157, 230, 238);
+  }
+  
+  .form :last-child {
+    width: 30%;
+    background-color: rgb(149, 6, 82);
+  }
